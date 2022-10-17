@@ -14,8 +14,8 @@ When("acessar a API", async function () {
 });
 
 Then("deve apresentar as informacoes {string}", async function (rua) {
-    console.log("rua cucumber" + rua)
-    console.log("rua api" + this.logradouro)
+    //  console.log("rua cucumber" + rua)
+    //  console.log("rua api" + this.logradouro)
     expect(this.logradouro).to.eq(rua);
 });
 
