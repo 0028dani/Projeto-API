@@ -1,7 +1,7 @@
 #Language: pt-br
 Feature: Consulta CEP
 
-    @teste
+    @cep
     Scenario Outline:  Consulta CEP
         Given que estou com o cep <cep>
         When acessar a API
@@ -9,3 +9,4 @@ Feature: Consulta CEP
         Examples:
             | cep      | rua                                | complemento | bairro                         | localidade |
             | 02348015 | Praça Ano Internacional da Criança |             | Jardim Leonor Mendes de Barros | São Paulo  |
+

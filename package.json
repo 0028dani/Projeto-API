@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:teste": "cucumber-js -t\"@teste\""
+    "test:cep": "cucumber-js -t\"@cep\""
   },
   "author": "",
   "license": "ISC",
