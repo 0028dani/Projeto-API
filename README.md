@@ -1,4 +1,4 @@
-<h1 align="center"> API Starwars</h1>
+<h1 align="center"> API CEP</h1>
 
 <p align="center">
   A API do CEP trás informações sobre as informações do local como rua, complemento e bairro.
